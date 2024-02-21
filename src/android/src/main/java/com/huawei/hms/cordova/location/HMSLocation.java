@@ -52,7 +52,7 @@ public class HMSLocation extends CordovaPlugin {
             Arrays.asList(new FusedLocationService(cordova), new GeofenceService(cordova),
                 new ActivityIdentificationService(cordova), new GeocoderService(), new PluginService(),
                 new CoordinateConversionService()));
-        cordova.setActivityResultCallback(this);
+        //cordova.setActivityResultCallback(this);
     }
 
     @Override
